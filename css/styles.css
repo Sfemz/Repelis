@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1 .highlight {
+    color: red;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.movie p {
+    font-size: 0.9em;
+    color: #ccc;
+}
